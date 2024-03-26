@@ -1,0 +1,79 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14;
+}
+
+.container {
+    background-image: url(https://images.prismic.io/ocean-agency-cms/7619e2cb-8525-4628-b51c-cc7ad1904802_Tim+El-Helou+4x5.jpg?auto=compress,format);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    width: 450px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+}
+.form-heading {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+
+}
+.form-label {
+    font-weight: 700;
+}
+.form-input {
+    height: 36px;
+    padding: 0 16px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.form-input:howver {
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.form-input:focus {
+border-color: blue;
+}
+
+.button {
+    height: 36px;
+    padding: 0 16px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 100%;
+}
+.button-blue {
+    background-color: blue;
+    color: #fff;
+}
+.register {
+    text-align: center;
+    margin-top: 24px;
+}
